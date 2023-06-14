@@ -17,14 +17,14 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get ('/hello/{name}', function(string $name) {
-    return "Hello, $name";
+Route::get ('/hello/{youname}', function(string $youname) {
+    return "Hello, $youname";
 });
 
-Route::get ('/info/{text}', function(string $text) {
-    return "Hello, $text";
+Route::get ('/info/{about}', function(string $about) {
+    return "Hello, $about";
 });
 
-Route::get ('/news/{post}', function(string $post) {
-    return "Hello, $post";
+Route::get ('/news/{newpost}', function(string $newpost) {
+    return "Hello, $newpost";
 });
